@@ -1,5 +1,5 @@
 if (Meteor.isClient) {
-  // counter starts at 0
+
   Session.setDefault('token', 'Click button to get it');
 
   Template.hello.helpers({
