@@ -1,10 +1,18 @@
 if (Meteor.isClient) {
 
-  Session.setDefault('token', 'Click button to get it');
+  Session.setDefault('token', 'empty');
 
   Template.auth.helpers({
     token: function () {
       return Session.get('token');
+    },
+    hasToken: function() {
+      var token = Session.get('token');
+      if (token === 'empty') {
+        return false;
+      } else {
+        return true;
+      }
     }
   });
 

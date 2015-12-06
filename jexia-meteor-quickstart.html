@@ -10,5 +10,11 @@
 
 <template name="auth">
   <button>Get Authorization Token</button>
-  <p>Token is: {{token}}</p>
+  {{#if hasToken}}
+  	<p>Great! You have a token to work with.</p>
+  	<p>Use your token in every requests header like:</p>
+  	<p>'Authorization': Bearer {{token}}</p>
+  {{else}}
+  	<p></p>
+  {{/if}}
 </template>
