@@ -15,6 +15,7 @@ curl https://install.meteor.com/ | sh
 2. Enter your Jexia App Url, Access key & secret at server/config.js file
 3. Run project by writing ```meteor``` in project root folder.
 Lunch browser at ```http://localhost:3000/```
+4. Build your own project from there ;)
 
 ## CONTRIBUTING
 
