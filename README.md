@@ -1,5 +1,8 @@
 # jexia-meteor-quickstart
 A quick start meteor app using Jexia.
+by using this repo your are ready and authenticated with your Api Access Key so you can start build your app with any framework you want.
+
+Tip: Read Meteor project file structure documentation to create correct folders (ex. client & public).
 
 ## Get Ready
 To use this project you should have a Jexia account. You can get one for free at www.jexia.com
